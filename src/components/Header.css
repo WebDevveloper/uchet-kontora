@@ -1,0 +1,64 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e3f2fd; /* Светло-голубой фон */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #1976d2; /* Голубой цвет для бургер-меню */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1976d2; /* Голубой цвет для ссылок */
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #0d47a1; /* Темно-голубой при наведении */
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: #1976d2;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #e3f2fd;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a, .nav-links button {
+    padding: 10px 20px;
+  }
+}
