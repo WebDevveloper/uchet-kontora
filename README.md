@@ -87,13 +87,13 @@ const SECRET_KEY = SECRET_KEY
 
 ## Цель проекта
 Показать умение вести фичи end-to-end на клиент-серверной архитектуре:
-– UI/UX: аккуратные формы, состояния (loading/empty/error), доступность (A11y);
-– Auth/Security: регистрация, вход, хэш пароля (bcrypt), JWT;
-– API/БД: REST на Express, валидация входных данных, индексы, SQL (MySQL);
-– Качество: ESLint, базовые тесты (unit/e2e), CI;
-– Производительность: Lighthouse/Web Vitals (LCP/CLS/TTI), code-splitting;
-– Деплой: фронт (Netlify/Vercel), бэкенд (Render/Railway), управляемая БД (Neon/PlanetScale);
-– Наблюдаемость: сбор метрик/логов/ошибок (Sentry/аналог).
+- UI/UX: аккуратные формы, состояния (loading/empty/error), доступность (A11y);
+- Auth/Security: регистрация, вход, хэш пароля (bcrypt), JWT;
+- API/БД: REST на Express, валидация входных данных, индексы, SQL (MySQL);
+- Качество: ESLint, базовые тесты (unit/e2e), CI;
+- Производительность: Lighthouse/Web Vitals (LCP/CLS/TTI), code-splitting;
+- Деплой: фронт (Netlify/Vercel), бэкенд (Render/Railway), управляемая БД (Neon/PlanetScale);
+- Наблюдаемость: сбор метрик/логов/ошибок (Sentry/аналог).
 
 ## Запуск
 ```bash
